@@ -1,11 +1,12 @@
 ﻿using System;
+using InteropExcel = Microsoft.Office.Interop.Excel;
 
 namespace Excel
 {
 	public class IOWrite
 	{
 		private DataStruct _data;
-
+		private InteropExcel.Application excel;
 		public IOWrite (DataStruct data)
 		{
 		}
