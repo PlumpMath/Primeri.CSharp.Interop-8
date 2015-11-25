@@ -16,6 +16,15 @@ namespace Excel
 			try {
 
 				//Междинни проверки
+				excel = InteropExcel.Application ();
+
+				if (excel = null) return false;
+
+
+
+
+
+				excel.Quit ();
 
 				return true;
 			} catch {
